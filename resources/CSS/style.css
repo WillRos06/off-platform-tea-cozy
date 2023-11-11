@@ -1,0 +1,54 @@
+/* Universal */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Helvetica';
+    color: seashell;
+    background-color: black;
+    margin: 0 20px;
+}
+
+/* header */
+header{
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    background-color: black;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10px;
+    flex:1 0;
+}
+
+nav img{
+    height: 50px;
+    cursor: pointer;
+}
+
+header ul li{
+    display: inline;
+}
+
+header ul li a{
+    margin:10px;
+    color: seashell;
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+/* banner */
+.banner{
+    height: 700px;
+}
+
+.banner-heading{
+}
+
+/* tea of the month section */
