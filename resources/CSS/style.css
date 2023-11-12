@@ -8,6 +8,7 @@ body{
     font-family: 'Helvetica';
     color:seashell;
     background-color: black;
+    
 }
 
 main{
@@ -51,5 +52,8 @@ header nav li a{
     position: relative;
     top: 69px;
     z-index: 0;
+    height: 700px;
+    background-image: url('../../resources/images/img-mission-background.jpg');
+    margin: 0 auto;
 }
 
