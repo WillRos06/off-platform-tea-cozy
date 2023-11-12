@@ -107,6 +107,7 @@ header nav li a {
 }
 
 .locations {
+    padding: 100px;
     width: 1200px;
     position: relative;
     top: 100px;
@@ -117,6 +118,7 @@ header nav li a {
 }
 
 .locations h2 {
+    margin-bottom: 15px;
     text-align: center;
 }
 
@@ -132,6 +134,8 @@ header nav li a {
     width: 300px;
     gap: 40px;
     background-color: black;
+    text-align: center;
+    padding: 50px;
 }
 
 /* Footer */
