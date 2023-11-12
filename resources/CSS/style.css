@@ -1,23 +1,23 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Helvetica';
-    color:seashell;
+    color: seashell;
     background-color: black;
-    
+
 }
 
-main{
+main {
     position: relative;
-    top:69px;
+    top: 69px;
 }
 
 /* Header */
-header{
+header {
     font-size: 22px;
     border-bottom: 1px solid seashell;
     position: fixed;
@@ -26,7 +26,7 @@ header{
     z-index: 1;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     height: 69px;
@@ -34,32 +34,32 @@ nav{
     margin: 0 10px;
 }
 
-header nav a img{
+header nav a img {
     height: 50px;
 }
 
-header nav li{
+header nav li {
     display: inline;
     margin: 0 10px;
 }
 
-header nav li a{
+header nav li a {
     color: white;
 }
 
 /* Banner */
-.banner{
+.banner {
     position: relative;
     top: 69px;
     z-index: 0;
     height: 700px;
     background-image: url('../../resources/images/img-mission-background.jpg');
     background-repeat: no-repeat;
-    width: 1200px;   
+    width: 1200px;
     margin: auto;
 }
 
-.banner-heading{
+.banner-heading {
     position: relative;
     top: 50%;
     background-color: black;
@@ -69,38 +69,82 @@ header nav li a{
 
 /* Tea of Month */
 
-.tea-of-month{
-
+.tea-of-month {
+    position: relative;
+    top: 69px;
 }
 
-.container{
+.container {
     margin: auto;
     width: 1000px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
-.item{
-    margin:10px;
+.item {
+    margin: 10px;
     width: 300px;
 }
 
-.item img{
+.item img {
     height: 200px;
     width: 300px;
     margin-bottom: 10px;
 }
 
-.tea-of-month h2, .tea-of-month p{
+.tea-of-month h2,
+.tea-of-month p,
+.tea-of-month h4 {
     text-align: center;
 }
 
-footer{
+/* Locations */
+
+.locations-section {
+    display: flex;
+    height: 500px;
+}
+
+.locations {
+    width: 1200px;
+    position: relative;
+    top: 100px;
+    background-image: url('../../resources/images/img-locations-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.locations h2 {
+    text-align: center;
+}
+
+.locations-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.loc-div {
+    opacity: 1;
+    margin: 0 20px;
+    height: 300px;
+    width: 300px;
+    gap: 40px;
+    background-color: black;
+}
+
+/* Footer */
+footer {
     position: relative;
     top: 200px;
 }
 
-footer .tea-cozy-contact{
+footer .tea-cozy-contact {
     text-align: center;
     height: 200px;
+}
+
+footer .copyright{
+    margin: 0 20px;
 }
