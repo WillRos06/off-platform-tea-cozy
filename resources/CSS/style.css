@@ -1,54 +1,55 @@
-/* Universal */
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
     font-family: 'Helvetica';
-    color: seashell;
+    color:seashell;
     background-color: black;
-    margin: 0 20px;
 }
 
-/* header */
+main{
+    position: relative;
+    top:69px;
+}
+
+/* Header */
 header{
-    height: 69px;
+    font-size: 22px;
     border-bottom: 1px solid seashell;
-    display: flex;
+    position: fixed;
+    width: 100%;
     background-color: black;
+    z-index: 1;
 }
 
 nav{
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    height: 69px;
+    align-items: center;
     margin: 0 10px;
-    flex:1 0;
 }
 
-nav img{
+header nav a img{
     height: 50px;
-    cursor: pointer;
 }
 
-header ul li{
+header nav li{
     display: inline;
+    margin: 0 10px;
 }
 
-header ul li a{
-    margin:10px;
-    color: seashell;
-    font-size: 22px;
-    text-decoration: underline;
+header nav li a{
+    color: white;
 }
 
-/* banner */
+/* Banner */
 .banner{
-    height: 700px;
+    position: relative;
+    top: 69px;
+    z-index: 0;
 }
 
-.banner-heading{
-}
-
-/* tea of the month section */
