@@ -54,6 +54,53 @@ header nav li a{
     z-index: 0;
     height: 700px;
     background-image: url('../../resources/images/img-mission-background.jpg');
-    margin: 0 auto;
+    background-repeat: no-repeat;
+    width: 1200px;   
+    margin: auto;
 }
 
+.banner-heading{
+    position: relative;
+    top: 50%;
+    background-color: black;
+    width: 1200px;
+    text-align: center;
+}
+
+/* Tea of Month */
+
+.tea-of-month{
+
+}
+
+.container{
+    margin: auto;
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item{
+    margin:10px;
+    width: 300px;
+}
+
+.item img{
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.tea-of-month h2, .tea-of-month p{
+    text-align: center;
+}
+
+footer{
+    position: relative;
+    top: 200px;
+}
+
+footer .tea-cozy-contact{
+    text-align: center;
+    height: 200px;
+}
